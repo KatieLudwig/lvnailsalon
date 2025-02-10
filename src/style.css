@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #1a1a1d;
+    color: #f1f1f1;
 }
 
 nav {
-    background-color: #ff6f61;
+    background-color: #c3073f;
     padding: 1em;
 }
 
@@ -34,7 +34,40 @@ nav ul li a:hover {
 }
 
 footer {
+    background-color: #4e4e50;
+    color: #f1f1f1;
     text-align: center;
     padding: 1em;
-    background-color: #f1f1f1;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #c3073f;
+}
+
+button {
+    background-color: #950740;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #6f2232;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
 }
