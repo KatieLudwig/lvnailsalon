@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a1d;
-    color: #f1f1f1;
+    background-color: #fafafa;
+    color: #444;
 }
 
 nav {
-    background-color: #c3073f;
+    background-color: #008080;
     padding: 1em;
 }
 
@@ -34,8 +34,8 @@ nav ul li a:hover {
 }
 
 footer {
-    background-color: #4e4e50;
-    color: #f1f1f1;
+    background-color: #e0e0e0;
+    color: #444;
     text-align: center;
     padding: 1em;
     position: fixed;
@@ -49,12 +49,13 @@ footer {
     padding: 20px;
 }
 
-h1, h2 {
-    color: #c3073f;
+h1, h2, h3, p {
+    color: #008080;
+    text-align: center;
 }
 
 button {
-    background-color: #950740;
+    background-color: #ff7f50;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -63,7 +64,7 @@ button {
 }
 
 button:hover {
-    background-color: #6f2232;
+    background-color: #ff9f80;
 }
 
 @media (max-width: 768px) {
