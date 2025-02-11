@@ -50,11 +50,11 @@ footer {
     padding: 20px;
 }
 
-/* h1, h2, h3, p {
+h1, h2, h3, p {
     color: #004d4d;
     text-align: center;
-    margin: 0;
-} */
+    margin: 20px 0;
+}
 
 button {
     background-color: #ff7f50;
