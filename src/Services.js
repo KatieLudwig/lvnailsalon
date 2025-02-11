@@ -100,8 +100,13 @@ const Services = () => (
                             <ul>
                                 {subcategory.items.map((item, idx) => (
                                     <li key={idx}>
-                                        <strong>{item.name}</strong> {item.price}
-                                        {item.description && <p>{item.description}</p>}
+                                        <div className='service-item'>
+                                          <div>
+                                        <strong>{item.name}</strong> 
+                                            {item.description && <p className='description'>{item.description}</p>}
+                                        </div>
+                                        <span className='price'>{item.price}</span>
+                                        </div>
                                     </li>
                                 ))}
                             </ul>
@@ -111,7 +116,12 @@ const Services = () => (
                         <ul>
                             {serviceCategory.items.map((item, idx) => (
                                 <li key={idx}>
-                                    <strong>{item.name}</strong> {item.price}
+                                    <div className='service-item'>
+                                        <div>
+                                            <strong>{item.name}</strong>
+                                        </div>
+                                        <span className='price'>{item.price}</span>
+                                        </div>
                                 </li>
                             ))}
                         </ul>

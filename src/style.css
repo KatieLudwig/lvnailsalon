@@ -119,6 +119,30 @@ button:hover {
     transform: scale(1.02);
 }
 
+.service-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.service-item > div {
+    flex: 1;
+}
+
+.descrition {
+    margin: 5px 0 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.price {
+    font-weight: bold;
+    color: #004d4d;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
 .services-container li strong {
     display: block;
     font-weight: bold;
