@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css';
 
 const services = [
     {
@@ -87,7 +88,7 @@ const services = [
 ];
 
 const Services = () => (
-    <div>
+    <div className='services-container'>
         <h1>Our Services</h1>
         {services.map((serviceCategory, index) => (
             <div key={index}>
@@ -99,7 +100,7 @@ const Services = () => (
                             <ul>
                                 {subcategory.items.map((item, idx) => (
                                     <li key={idx}>
-                                        <strong>{item.name}</strong>: {item.price}
+                                        <strong>{item.name}</strong> {item.price}
                                         {item.description && <p>{item.description}</p>}
                                     </li>
                                 ))}
@@ -110,7 +111,7 @@ const Services = () => (
                         <ul>
                             {serviceCategory.items.map((item, idx) => (
                                 <li key={idx}>
-                                    <strong>{item.name}</strong>: {item.price}
+                                    <strong>{item.name}</strong> {item.price}
                                 </li>
                             ))}
                         </ul>
