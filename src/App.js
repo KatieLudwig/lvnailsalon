@@ -7,6 +7,7 @@ import About from './About';
 import Gallery from './Gallery';
 import Contact from './Contact';
 import Home from "./Home";
+import Footer from "./Footer.js";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );

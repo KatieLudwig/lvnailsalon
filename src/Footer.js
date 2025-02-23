@@ -3,7 +3,8 @@ import React from "react";
 const Footer = () => (
     <footer>
         <p>Contact us: </p>
-        <p>Address: 1234 Main St. Las Vegas, NV 89130</p>
+        <p>Phone Number: </p>
+        <p>Address: 5601 N Tenaya Way Ste 101 Las Vegas, NV 89130</p>
     </footer>
 );
 

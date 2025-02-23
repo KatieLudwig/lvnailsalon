@@ -73,7 +73,7 @@ const services = [
                     { name: 'Gel Polish Change', price: '$58' },
                     { name: 'Gel Polish Add', price: '$58' },
                     { name: 'Add Paraffin Wax', price: '$30' },
-                    { name: 'Pedicure Services', price: '$155 & up' }
+                    { name: 'Full Services', price: '$155 & up' }
                 ]
             }
         ]
