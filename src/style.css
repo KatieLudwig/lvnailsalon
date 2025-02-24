@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-.home-container {
+.home-container, .container {
     text-align: center;
     padding: 20px;
 }
@@ -54,7 +54,7 @@ body {
     margin-bottom: 20px;
 }
 
-.intro button {
+.intro button, .button{
     background-color: #ff7f50;
     color: white;
     border: none;
@@ -64,23 +64,8 @@ body {
     transition: background-color 0.3s;
 }
 
-.intro button:hover {
+.intro button:hover, button:hover {
     background-color: #ff9f80;
-}
-
-@media (max-width: 768px) {
-    .hero {
-        height: 300px;
-    }
-    
-    .hero h1 {
-        font-size: 2.5em;
-    }
-    
-    .intro {
-        margin: 10px;
-        padding: 20px;
-    }
 }
 
 nav {
@@ -121,31 +106,6 @@ nav {
     color: #ff7f50;
 }
 
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
-        background-color: #004d4d;
-    }
-
-    .nav-links.open {
-        display: flex;
-    }
-
-    .nav-links li {
-        margin: 10px 0;
-        text-align: center;
-    }
-}
-
 .footer {
     background-color: #66b2b2;
     color: #fff;
@@ -154,32 +114,6 @@ nav {
     position: relative;
     width: 100%;
     bottom: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-h1, h2, h3, p {
-    color: #004d4d;
-    text-align: center;
-    margin: 20px 0;
-}
-
-button {
-    background-color: #ff7f50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #ff9f80;
 }
 
 .services-container {
@@ -194,7 +128,8 @@ button:hover {
 .services-container h1 {
     margin-bottom: 20px;
     font-size: 2em;
-    color: #333;
+    color: #004d4d;
+    text-align: center;
 }
 
 .services-container h2 {
@@ -223,8 +158,8 @@ button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .services-container li:hover {
@@ -242,7 +177,7 @@ button:hover {
     flex: 1;
 }
 
-.descrition {
+.description {
     margin: 5px 0 0;
     color: #666;
     font-size: 0.9em;
@@ -271,23 +206,55 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
+    .hero {
+        height: 300px;
     }
-    
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .intro {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #004d4d;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
     .services-container {
         margin: 20px;
         padding: 15px;
     }
-    
+
     .services-container h1 {
-        font-size: 1.8em;
+        font-size: 1.8em
     }
-    
+
     .services-container h2 {
         font-size: 1.3em;
     }
-    
+
     .services-container h3 {
         font-size: 1.1em;
     }
