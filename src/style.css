@@ -205,6 +205,19 @@ nav {
     padding-left: 10px;
 }
 
+.photo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+}
+
 @media (max-width: 768px) {
     .hero {
         height: 300px;
