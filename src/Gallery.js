@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gallery = () => (
     <div>
-      <img src="/lvnail.jpg" alt="LV Nail 1" />
+      <img src="/nail1.jpg" alt="nail1" />
       </div>
 );
 
