@@ -2,7 +2,7 @@ import React from 'react';
 
 const Gallery = () => (
     <div>
-      <img src={`${process.env.PUBLIC_URL}/images/lvnail1.jpg`} alt="My Photo" />
+      <img src="/lvnail.jpg" alt="LV Nail 1" />
       </div>
 );
 
