@@ -12,6 +12,7 @@ body {
 }
 
 .hero {
+    background-image: url('/images/lvnails.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
